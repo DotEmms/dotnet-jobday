@@ -12,10 +12,18 @@ header{
     text-align: center;
     overflow: hidden;
 }
-.navbar{
-    float: top;
-    position: absolute;
- }
+.navbar-nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: aquamarine;
+}
 .dropdown-menu{
     background: transparent;
     border: none;
