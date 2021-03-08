@@ -9,16 +9,6 @@ header{
     text-align: center;
     overflow: hidden;
 }
-/* .navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
-}
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
-} */
 .dropdown-menu{
     background: transparent;
     border: none;
@@ -42,15 +32,23 @@ header .inspiring-quote{
 section{
     margin: 0 10% 0 10%;
 }
-
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.about2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
 .section-team .header-section {
 	margin-bottom: 50px;
 }
 
 
 .header-section .title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 .section-team .person-col{
     padding: 0 50px 0 50px;
