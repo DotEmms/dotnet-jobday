@@ -30,13 +30,14 @@ header .inspiring-quote{
     font-size: 2rem;
 }
 section {
-    margin: 0 10% 0 10%;
+    margin: 5% 10% 0 10%;
     font-family: 'Exo 2', sans-serif;
 }
 .section-team .header-section {
 	margin-bottom: 50px;
 }
 #about p {
+    
     font-family: 'Exo 2', sans-serif;
 }
 #about2 p {
