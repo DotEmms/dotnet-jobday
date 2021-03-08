@@ -22,12 +22,16 @@ header{
     top: 0;
     left: 0;
     position: fixed;
-    background: aquamarine;
+}
+.nav-styling {
+    width: 20% | important;
+    display: inherit;
+    justify-content: center;
+    background-color: rgba(12, 125, 116, 0.82);
 }
 .dropdown-menu{
     background: transparent;
     border: none;
-    
 }
 .dropdown-item{
     background: transparent;
@@ -56,7 +60,20 @@ section {
     font-family: 'Exo 2', sans-serif;
 }
 #about2 p {
+    
     font-family: 'Exo 2', sans-serif;
+}
+#about{
+    padding-top: 40px;
+}
+#about2{
+    padding-top: 40px;
+}
+#team{
+    padding-top: 40px;
+}
+#contact {
+    padding-top: 40px;
 }
 .header-section .title {
     font-weight: 600;
