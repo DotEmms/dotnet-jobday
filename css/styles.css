@@ -29,22 +29,19 @@ header .inspiring-quote{
     width: 75%;
     font-size: 2rem;
 }
-section{
+section {
     margin: 0 10% 0 10%;
-}
-.about p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-}
-.about2 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: 'Exo 2', sans-serif;
 }
 .section-team .header-section {
 	margin-bottom: 50px;
 }
-
-
+#about p {
+    font-family: 'Exo 2', sans-serif;
+}
+#about2 p {
+    font-family: 'Exo 2', sans-serif;
+}
 .header-section .title {
     font-weight: 600;
     font-size: 45px;
