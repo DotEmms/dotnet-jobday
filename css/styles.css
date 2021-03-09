@@ -30,17 +30,17 @@ header{
     background-color: rgba(12, 125, 116, 0.82);
 }
 .dropdown-menu {
-    background-color: rgba(12, 125, 116, 0.82);
+    background: transparent;
     border: none;
 }
 .dropdown-item {
     background-color: rgba(12, 125, 116, 0.82);
     color: #fff;
 }
-.dropdown-item:hover{
-    background: transparent;
-    color: #0c7c73;
-}
+    .dropdown-item:hover {
+        background-color: rgba(12, 125, 116, 0.82);
+        color: #fff;
+    }
 header .inspiring-quote{
     text-align: center;
     margin: 10% 10% 0 10%;
