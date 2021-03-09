@@ -33,8 +33,8 @@ header{
     background: transparent;
     border: none;
 }
-.dropdown-item{
-    background: transparent;
+.dropdown-item {
+    background-color: rgba(12, 125, 116, 0.82);
     color: #fff;
 }
 .dropdown-item:hover{
