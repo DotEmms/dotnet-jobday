@@ -29,8 +29,8 @@ header{
     justify-content: center;
     background-color: rgba(12, 125, 116, 0.82);
 }
-.dropdown-menu{
-    background: transparent;
+.dropdown-menu {
+    background-color: rgba(12, 125, 116, 0.82);
     border: none;
 }
 .dropdown-item {
