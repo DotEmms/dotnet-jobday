@@ -1,5 +1,6 @@
-/* HTML selectors */
-
+html {
+    scroll-behavior: smooth;
+} 
 body{
     background-color: #f6f9ff;
 }
@@ -11,21 +12,26 @@ header{
     text-align: center;
     overflow: hidden;
 }
-
-
-
-
-/*  ID selectors */
-
-
-
-/* CLASS selectors */
-
-
+.navbar-nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.nav-styling {
+    width: 20% | important;
+    display: inherit;
+    justify-content: center;
+    background-color: rgba(12, 125, 116, 0.82);
+}
 .dropdown-menu{
     background: transparent;
     border: none;
-    
 }
 .dropdown-item{
     background: transparent;
@@ -43,17 +49,31 @@ header .inspiring-quote{
     font-size: 2rem;
 }
 section {
-    margin: 0 10% 0 10%;
+    margin: 5% 10% 0 10%;
     font-family: 'Exo 2', sans-serif;
 }
 .section-team .header-section {
 	margin-bottom: 50px;
 }
 #about p {
+    
     font-family: 'Exo 2', sans-serif;
 }
 #about2 p {
+    
     font-family: 'Exo 2', sans-serif;
+}
+#about{
+    padding-top: 40px;
+}
+#about2{
+    padding-top: 40px;
+}
+#team{
+    padding-top: 40px;
+}
+#contact {
+    padding-top: 40px;
 }
 .header-section .title {
     font-weight: 600;
@@ -163,6 +183,8 @@ footer p{
 .title {
     margin-bottom: 5%;
 }
+
+
 
 
 
