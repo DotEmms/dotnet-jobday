@@ -133,15 +133,18 @@ section {
 .section-team .single-person:hover .speciality {
 	color: #fff;
 }
-.btn{
+.btn {
     border-color: #0c7c73;
 }
 form{
     padding-bottom: 2%;
+    width: 40%;
+    margin: 0 auto;
 }
 form div{
     padding-top: 0.8%;
     padding-bottom: 0.8%;
+    
 }
 footer{
     text-align: center;
