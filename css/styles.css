@@ -5,7 +5,7 @@ body{
     background-color: #f6f9ff;
 }
 header{
-    position: relative;
+    position:relative;
     background-image: url("../images/background.png");
     background-size: cover;
     height: 500px;
@@ -135,6 +135,8 @@ section {
 }
 .btn {
     border-color: #0c7c73;
+    
+   
 }
 form{
     padding-bottom: 2%;
@@ -151,7 +153,7 @@ footer{
     font-size: 0.7rem;
     background-color: darkcyan;
     width: 100%;
-    height: fit-content;
+    height:fit-content(100px);
 }
 footer div{
     justify-content: center;
@@ -167,4 +169,26 @@ footer img{
 footer p{
     margin: 0;
     padding-bottom: 1%;
+    font-size:small;
+    font-weight:700;
+    color:darkblue;
 }
+
+
+/* NEW ADDED */
+
+.container-about, .container-team, .container-teachers, .container-jobday, .container-form {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.title {
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
