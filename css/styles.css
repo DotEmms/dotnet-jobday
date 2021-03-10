@@ -134,7 +134,9 @@ section {
 	color: #fff;
 }
 .btn {
-    border-color: #0c7c73;
+    color: white;
+    font-weight:500;
+    background-color: red;
     
    
 }
