@@ -29,17 +29,17 @@ header{
     justify-content: center;
     background-color: rgba(12, 125, 116, 0.82);
 }
-.dropdown-menu{
+.dropdown-menu {
     background: transparent;
     border: none;
 }
-.dropdown-item{
-    background: transparent;
+.dropdown-item {
+    background-color: rgba(12, 125, 116, 0.82);
     color: #fff;
 }
-.dropdown-item:hover{
-    background: transparent;
-    color: #0c7c73;
+.dropdown-item:hover {
+    background-color: rgba(16, 158, 146, 0.82);
+    color: #fff;
 }
 header .inspiring-quote{
     text-align: center;
@@ -142,11 +142,13 @@ section {
 }
 form{
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    width: 40%;
+    margin: 0 auto;
 }
 form div{
     padding-top: 0.8%;
     padding-bottom: 0.8%;
+    
 }
 footer{
     text-align: center;
